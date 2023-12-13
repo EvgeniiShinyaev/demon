@@ -1,0 +1,9 @@
+[Unit]
+Description=Backup Daemon
+
+[Service]
+ExecStart=/home/evgenii/Desktop/Backup-main/build/Backup
+Restart=always
+
+[Install]
+WantedBy=default.target
